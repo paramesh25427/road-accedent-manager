@@ -1,0 +1,830 @@
+{
+  "Logistic Regression": [
+    {
+      "feature": "road_condition_Dry",
+      "importance": 0.0924,
+      "percentage": 9.24
+    },
+    {
+      "feature": "weather_condition_Clear",
+      "importance": 0.0681,
+      "percentage": 6.81
+    },
+    {
+      "feature": "road_condition_Icy",
+      "importance": 0.0632,
+      "percentage": 6.32
+    },
+    {
+      "feature": "traffic_density_High",
+      "importance": 0.0564,
+      "percentage": 5.64
+    },
+    {
+      "feature": "lighting_condition_Dark - No Streetlights",
+      "importance": 0.0563,
+      "percentage": 5.63
+    },
+    {
+      "feature": "weather_condition_Foggy",
+      "importance": 0.056,
+      "percentage": 5.6
+    },
+    {
+      "feature": "weather_condition_Cloudy",
+      "importance": 0.0543,
+      "percentage": 5.43
+    },
+    {
+      "feature": "weather_condition_Stormy",
+      "importance": 0.0533,
+      "percentage": 5.33
+    },
+    {
+      "feature": "traffic_density_Low",
+      "importance": 0.0499,
+      "percentage": 4.99
+    },
+    {
+      "feature": "accident_frequency",
+      "importance": 0.0412,
+      "percentage": 4.12
+    },
+    {
+      "feature": "lighting_condition_Dawn",
+      "importance": 0.0385,
+      "percentage": 3.85
+    },
+    {
+      "feature": "visibility",
+      "importance": 0.0351,
+      "percentage": 3.51
+    },
+    {
+      "feature": "road_condition_Damaged",
+      "importance": 0.0345,
+      "percentage": 3.45
+    },
+    {
+      "feature": "road_type_Highway",
+      "importance": 0.0317,
+      "percentage": 3.17
+    },
+    {
+      "feature": "road_type_Expressway",
+      "importance": 0.0307,
+      "percentage": 3.07
+    },
+    {
+      "feature": "speed_limit",
+      "importance": 0.0306,
+      "percentage": 3.06
+    },
+    {
+      "feature": "road_type_Arterial",
+      "importance": 0.0256,
+      "percentage": 2.56
+    },
+    {
+      "feature": "vehicle_count",
+      "importance": 0.0253,
+      "percentage": 2.53
+    },
+    {
+      "feature": "is_night",
+      "importance": 0.0251,
+      "percentage": 2.51
+    },
+    {
+      "feature": "lighting_condition_Daylight",
+      "importance": 0.0232,
+      "percentage": 2.32
+    },
+    {
+      "feature": "road_type_Rural Road",
+      "importance": 0.0192,
+      "percentage": 1.92
+    },
+    {
+      "feature": "weather_condition_Rainy",
+      "importance": 0.0187,
+      "percentage": 1.87
+    },
+    {
+      "feature": "road_type_Urban Street",
+      "importance": 0.0171,
+      "percentage": 1.71
+    },
+    {
+      "feature": "lighting_condition_Dusk",
+      "importance": 0.0106,
+      "percentage": 1.06
+    },
+    {
+      "feature": "lighting_condition_Night",
+      "importance": 0.0072,
+      "percentage": 0.72
+    },
+    {
+      "feature": "traffic_density_Medium",
+      "importance": 0.0064,
+      "percentage": 0.64
+    },
+    {
+      "feature": "road_condition_Wet",
+      "importance": 0.0054,
+      "percentage": 0.54
+    },
+    {
+      "feature": "day_of_week_Monday",
+      "importance": 0.0032,
+      "percentage": 0.32
+    },
+    {
+      "feature": "day_of_week_Tuesday",
+      "importance": 0.0031,
+      "percentage": 0.31
+    },
+    {
+      "feature": "day_of_week_Thursday",
+      "importance": 0.0027,
+      "percentage": 0.27
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0021,
+      "percentage": 0.21
+    },
+    {
+      "feature": "day_of_week_Friday",
+      "importance": 0.002,
+      "percentage": 0.2
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.0016,
+      "percentage": 0.16
+    },
+    {
+      "feature": "day_of_week_Wednesday",
+      "importance": 0.0015,
+      "percentage": 0.15
+    },
+    {
+      "feature": "urban_rural_Urban",
+      "importance": 0.0014,
+      "percentage": 0.14
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0013,
+      "percentage": 0.13
+    },
+    {
+      "feature": "day_of_week_Sunday",
+      "importance": 0.0013,
+      "percentage": 0.13
+    },
+    {
+      "feature": "urban_rural_Rural",
+      "importance": 0.0011,
+      "percentage": 0.11
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.0009,
+      "percentage": 0.09
+    },
+    {
+      "feature": "is_rush_hour",
+      "importance": 0.0009,
+      "percentage": 0.09
+    },
+    {
+      "feature": "day_of_week_Saturday",
+      "importance": 0.0007,
+      "percentage": 0.07
+    }
+  ],
+  "Decision Tree": [
+    {
+      "feature": "visibility",
+      "importance": 0.301,
+      "percentage": 30.1
+    },
+    {
+      "feature": "vehicle_count",
+      "importance": 0.1409,
+      "percentage": 14.09
+    },
+    {
+      "feature": "accident_frequency",
+      "importance": 0.1078,
+      "percentage": 10.78
+    },
+    {
+      "feature": "road_condition_Dry",
+      "importance": 0.0888,
+      "percentage": 8.88
+    },
+    {
+      "feature": "speed_limit",
+      "importance": 0.072,
+      "percentage": 7.2
+    },
+    {
+      "feature": "lighting_condition_Daylight",
+      "importance": 0.0593,
+      "percentage": 5.93
+    },
+    {
+      "feature": "lighting_condition_Dark - No Streetlights",
+      "importance": 0.0523,
+      "percentage": 5.23
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0253,
+      "percentage": 2.53
+    },
+    {
+      "feature": "traffic_density_Medium",
+      "importance": 0.0201,
+      "percentage": 2.01
+    },
+    {
+      "feature": "traffic_density_High",
+      "importance": 0.0187,
+      "percentage": 1.87
+    },
+    {
+      "feature": "road_condition_Wet",
+      "importance": 0.016,
+      "percentage": 1.6
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.0135,
+      "percentage": 1.35
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.013,
+      "percentage": 1.3
+    },
+    {
+      "feature": "lighting_condition_Night",
+      "importance": 0.0108,
+      "percentage": 1.08
+    },
+    {
+      "feature": "weather_condition_Cloudy",
+      "importance": 0.0101,
+      "percentage": 1.01
+    },
+    {
+      "feature": "road_condition_Icy",
+      "importance": 0.0072,
+      "percentage": 0.72
+    },
+    {
+      "feature": "road_condition_Damaged",
+      "importance": 0.0057,
+      "percentage": 0.57
+    },
+    {
+      "feature": "traffic_density_Low",
+      "importance": 0.0051,
+      "percentage": 0.51
+    },
+    {
+      "feature": "weather_condition_Foggy",
+      "importance": 0.0046,
+      "percentage": 0.46
+    },
+    {
+      "feature": "weather_condition_Clear",
+      "importance": 0.0042,
+      "percentage": 0.42
+    },
+    {
+      "feature": "day_of_week_Wednesday",
+      "importance": 0.0034,
+      "percentage": 0.34
+    },
+    {
+      "feature": "lighting_condition_Dawn",
+      "importance": 0.0029,
+      "percentage": 0.29
+    },
+    {
+      "feature": "urban_rural_Rural",
+      "importance": 0.0027,
+      "percentage": 0.27
+    },
+    {
+      "feature": "lighting_condition_Dusk",
+      "importance": 0.002,
+      "percentage": 0.2
+    },
+    {
+      "feature": "road_type_Expressway",
+      "importance": 0.0018,
+      "percentage": 0.18
+    },
+    {
+      "feature": "road_type_Urban Street",
+      "importance": 0.0018,
+      "percentage": 0.18
+    },
+    {
+      "feature": "weather_condition_Stormy",
+      "importance": 0.0015,
+      "percentage": 0.15
+    },
+    {
+      "feature": "road_type_Arterial",
+      "importance": 0.0014,
+      "percentage": 0.14
+    },
+    {
+      "feature": "is_night",
+      "importance": 0.0011,
+      "percentage": 0.11
+    },
+    {
+      "feature": "urban_rural_Urban",
+      "importance": 0.0011,
+      "percentage": 0.11
+    },
+    {
+      "feature": "road_type_Highway",
+      "importance": 0.001,
+      "percentage": 0.1
+    },
+    {
+      "feature": "is_rush_hour",
+      "importance": 0.0009,
+      "percentage": 0.09
+    },
+    {
+      "feature": "day_of_week_Sunday",
+      "importance": 0.0009,
+      "percentage": 0.09
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0007,
+      "percentage": 0.07
+    },
+    {
+      "feature": "weather_condition_Rainy",
+      "importance": 0.0004,
+      "percentage": 0.04
+    },
+    {
+      "feature": "day_of_week_Monday",
+      "importance": 0.0002,
+      "percentage": 0.02
+    },
+    {
+      "feature": "day_of_week_Thursday",
+      "importance": 0.0001,
+      "percentage": 0.01
+    },
+    {
+      "feature": "road_type_Rural Road",
+      "importance": 0.0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "day_of_week_Friday",
+      "importance": 0.0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "day_of_week_Saturday",
+      "importance": 0.0,
+      "percentage": 0.0
+    },
+    {
+      "feature": "day_of_week_Tuesday",
+      "importance": 0.0,
+      "percentage": 0.0
+    }
+  ],
+  "Random Forest": [
+    {
+      "feature": "visibility",
+      "importance": 0.1767,
+      "percentage": 17.67
+    },
+    {
+      "feature": "vehicle_count",
+      "importance": 0.0747,
+      "percentage": 7.47
+    },
+    {
+      "feature": "road_condition_Dry",
+      "importance": 0.0721,
+      "percentage": 7.21
+    },
+    {
+      "feature": "accident_frequency",
+      "importance": 0.0697,
+      "percentage": 6.97
+    },
+    {
+      "feature": "speed_limit",
+      "importance": 0.0676,
+      "percentage": 6.76
+    },
+    {
+      "feature": "weather_condition_Clear",
+      "importance": 0.0498,
+      "percentage": 4.98
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.0369,
+      "percentage": 3.69
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0369,
+      "percentage": 3.69
+    },
+    {
+      "feature": "traffic_density_High",
+      "importance": 0.0349,
+      "percentage": 3.49
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.033,
+      "percentage": 3.3
+    },
+    {
+      "feature": "weather_condition_Rainy",
+      "importance": 0.0293,
+      "percentage": 2.93
+    },
+    {
+      "feature": "lighting_condition_Dark - No Streetlights",
+      "importance": 0.029,
+      "percentage": 2.9
+    },
+    {
+      "feature": "road_condition_Wet",
+      "importance": 0.0265,
+      "percentage": 2.65
+    },
+    {
+      "feature": "traffic_density_Low",
+      "importance": 0.0242,
+      "percentage": 2.42
+    },
+    {
+      "feature": "lighting_condition_Daylight",
+      "importance": 0.024,
+      "percentage": 2.4
+    },
+    {
+      "feature": "weather_condition_Cloudy",
+      "importance": 0.0211,
+      "percentage": 2.11
+    },
+    {
+      "feature": "weather_condition_Foggy",
+      "importance": 0.0211,
+      "percentage": 2.11
+    },
+    {
+      "feature": "is_night",
+      "importance": 0.0199,
+      "percentage": 1.99
+    },
+    {
+      "feature": "road_type_Highway",
+      "importance": 0.0198,
+      "percentage": 1.98
+    },
+    {
+      "feature": "traffic_density_Medium",
+      "importance": 0.0139,
+      "percentage": 1.39
+    },
+    {
+      "feature": "road_condition_Damaged",
+      "importance": 0.0138,
+      "percentage": 1.38
+    },
+    {
+      "feature": "road_type_Expressway",
+      "importance": 0.0108,
+      "percentage": 1.08
+    },
+    {
+      "feature": "is_rush_hour",
+      "importance": 0.0096,
+      "percentage": 0.96
+    },
+    {
+      "feature": "road_type_Urban Street",
+      "importance": 0.0091,
+      "percentage": 0.91
+    },
+    {
+      "feature": "road_type_Arterial",
+      "importance": 0.0087,
+      "percentage": 0.87
+    },
+    {
+      "feature": "weather_condition_Stormy",
+      "importance": 0.008,
+      "percentage": 0.8
+    },
+    {
+      "feature": "lighting_condition_Night",
+      "importance": 0.0066,
+      "percentage": 0.66
+    },
+    {
+      "feature": "road_condition_Icy",
+      "importance": 0.006,
+      "percentage": 0.6
+    },
+    {
+      "feature": "urban_rural_Urban",
+      "importance": 0.005,
+      "percentage": 0.5
+    },
+    {
+      "feature": "urban_rural_Rural",
+      "importance": 0.0047,
+      "percentage": 0.47
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0045,
+      "percentage": 0.45
+    },
+    {
+      "feature": "road_type_Rural Road",
+      "importance": 0.0038,
+      "percentage": 0.38
+    },
+    {
+      "feature": "day_of_week_Wednesday",
+      "importance": 0.0037,
+      "percentage": 0.37
+    },
+    {
+      "feature": "day_of_week_Saturday",
+      "importance": 0.0036,
+      "percentage": 0.36
+    },
+    {
+      "feature": "day_of_week_Friday",
+      "importance": 0.0035,
+      "percentage": 0.35
+    },
+    {
+      "feature": "day_of_week_Sunday",
+      "importance": 0.0032,
+      "percentage": 0.32
+    },
+    {
+      "feature": "day_of_week_Thursday",
+      "importance": 0.0032,
+      "percentage": 0.32
+    },
+    {
+      "feature": "day_of_week_Tuesday",
+      "importance": 0.0032,
+      "percentage": 0.32
+    },
+    {
+      "feature": "day_of_week_Monday",
+      "importance": 0.003,
+      "percentage": 0.3
+    },
+    {
+      "feature": "lighting_condition_Dawn",
+      "importance": 0.0027,
+      "percentage": 0.27
+    },
+    {
+      "feature": "lighting_condition_Dusk",
+      "importance": 0.0022,
+      "percentage": 0.22
+    }
+  ],
+  "XGBoost": [
+    {
+      "feature": "weather_condition_Cloudy",
+      "importance": 0.1124,
+      "percentage": 11.24
+    },
+    {
+      "feature": "weather_condition_Clear",
+      "importance": 0.064,
+      "percentage": 6.4
+    },
+    {
+      "feature": "road_condition_Dry",
+      "importance": 0.062,
+      "percentage": 6.2
+    },
+    {
+      "feature": "traffic_density_High",
+      "importance": 0.0545,
+      "percentage": 5.45
+    },
+    {
+      "feature": "visibility",
+      "importance": 0.0509,
+      "percentage": 5.09
+    },
+    {
+      "feature": "lighting_condition_Daylight",
+      "importance": 0.0437,
+      "percentage": 4.37
+    },
+    {
+      "feature": "speed_limit",
+      "importance": 0.043,
+      "percentage": 4.3
+    },
+    {
+      "feature": "weather_condition_Foggy",
+      "importance": 0.0418,
+      "percentage": 4.18
+    },
+    {
+      "feature": "lighting_condition_Dark - No Streetlights",
+      "importance": 0.0413,
+      "percentage": 4.13
+    },
+    {
+      "feature": "is_night",
+      "importance": 0.0385,
+      "percentage": 3.85
+    },
+    {
+      "feature": "weather_condition_Rainy",
+      "importance": 0.0355,
+      "percentage": 3.55
+    },
+    {
+      "feature": "road_type_Highway",
+      "importance": 0.0331,
+      "percentage": 3.31
+    },
+    {
+      "feature": "traffic_density_Low",
+      "importance": 0.0278,
+      "percentage": 2.78
+    },
+    {
+      "feature": "traffic_density_Medium",
+      "importance": 0.0273,
+      "percentage": 2.73
+    },
+    {
+      "feature": "accident_frequency",
+      "importance": 0.0265,
+      "percentage": 2.65
+    },
+    {
+      "feature": "weather_condition_Stormy",
+      "importance": 0.0256,
+      "percentage": 2.56
+    },
+    {
+      "feature": "road_condition_Icy",
+      "importance": 0.0233,
+      "percentage": 2.33
+    },
+    {
+      "feature": "road_condition_Damaged",
+      "importance": 0.0231,
+      "percentage": 2.31
+    },
+    {
+      "feature": "road_type_Expressway",
+      "importance": 0.0226,
+      "percentage": 2.26
+    },
+    {
+      "feature": "vehicle_count",
+      "importance": 0.0225,
+      "percentage": 2.25
+    },
+    {
+      "feature": "lighting_condition_Night",
+      "importance": 0.0182,
+      "percentage": 1.82
+    },
+    {
+      "feature": "lighting_condition_Dawn",
+      "importance": 0.0138,
+      "percentage": 1.38
+    },
+    {
+      "feature": "road_condition_Wet",
+      "importance": 0.0132,
+      "percentage": 1.32
+    },
+    {
+      "feature": "is_rush_hour",
+      "importance": 0.0124,
+      "percentage": 1.24
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0118,
+      "percentage": 1.18
+    },
+    {
+      "feature": "road_type_Urban Street",
+      "importance": 0.0112,
+      "percentage": 1.12
+    },
+    {
+      "feature": "urban_rural_Rural",
+      "importance": 0.0083,
+      "percentage": 0.83
+    },
+    {
+      "feature": "road_type_Arterial",
+      "importance": 0.0082,
+      "percentage": 0.82
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0077,
+      "percentage": 0.77
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.0075,
+      "percentage": 0.75
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.0073,
+      "percentage": 0.73
+    },
+    {
+      "feature": "urban_rural_Urban",
+      "importance": 0.0073,
+      "percentage": 0.73
+    },
+    {
+      "feature": "lighting_condition_Dusk",
+      "importance": 0.0073,
+      "percentage": 0.73
+    },
+    {
+      "feature": "day_of_week_Wednesday",
+      "importance": 0.0069,
+      "percentage": 0.69
+    },
+    {
+      "feature": "road_type_Rural Road",
+      "importance": 0.0061,
+      "percentage": 0.61
+    },
+    {
+      "feature": "day_of_week_Tuesday",
+      "importance": 0.006,
+      "percentage": 0.6
+    },
+    {
+      "feature": "day_of_week_Saturday",
+      "importance": 0.0058,
+      "percentage": 0.58
+    },
+    {
+      "feature": "day_of_week_Friday",
+      "importance": 0.0056,
+      "percentage": 0.56
+    },
+    {
+      "feature": "day_of_week_Monday",
+      "importance": 0.0053,
+      "percentage": 0.53
+    },
+    {
+      "feature": "day_of_week_Sunday",
+      "importance": 0.0052,
+      "percentage": 0.52
+    },
+    {
+      "feature": "day_of_week_Thursday",
+      "importance": 0.005,
+      "percentage": 0.5
+    }
+  ]
+}

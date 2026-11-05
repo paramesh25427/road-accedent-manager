@@ -1,0 +1,41 @@
+{
+  "dataset_name": "Intelligent Road Accident Risk Historical Dataset (Synthetic / Demo Benchmark)",
+  "total_records": 6000,
+  "columns": [
+    "accident_id",
+    "latitude",
+    "longitude",
+    "date",
+    "time",
+    "weather_condition",
+    "traffic_density",
+    "road_condition",
+    "visibility",
+    "road_type",
+    "speed_limit",
+    "vehicle_count",
+    "accident_frequency",
+    "accident_severity",
+    "day_of_week",
+    "urban_rural",
+    "lighting_condition",
+    "risk_score",
+    "risk_level"
+  ],
+  "target_variable": "risk_level",
+  "classes": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "class_counts": {
+    "Medium": 2867,
+    "High": 2473,
+    "Low": 660
+  },
+  "geographic_center": {
+    "lat": 11.0168,
+    "lon": 76.9558
+  },
+  "description": "Realistic accident records generated with multi-factor risk logic for training, evaluation, and geospatial clustering."
+}

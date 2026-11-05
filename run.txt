@@ -1,0 +1,8 @@
+#backend
+python -m pip install -r backend\requirements.txt
+python -m uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
+
+#frontend
+Set-Location "E:\Projects\DSA project\road acident management\frontend"
+npm install
+npm run dev -- --host 127.0.0.1
